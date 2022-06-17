@@ -97,7 +97,7 @@ echo "<br>";
 
 //variable que llega desde POST o esta definida en el codigo 
 
-$name_user_2 = "Esteban";
+$name_user_2 = "xxxxx";
 
 //Parametros posicionales
 //ejemplo para llamar un nombre que esta en base de datos mediante una variable dada
@@ -114,7 +114,7 @@ $stmt->execute([':name_user' => $name_user_2]);
 
 
 //se crea una nueva variable que contiene los cambios y se le agrega -> el fetch
-
+//pasa a ser el array que contiene toda la info d ela consulta
 $user_2 = $stmt->fetchAll();
 
 //para mostrar con var_dump
