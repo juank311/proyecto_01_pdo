@@ -90,6 +90,13 @@ echo "<br>";
 echo $total_usuarios;
 
 
+//escribir en la base de datos
+echo "<br>";
+echo "<br>";
+echo "ejemplo escribir en la base de datos";
+echo "<br>";
+echo "<br>";
+
 
 
 
